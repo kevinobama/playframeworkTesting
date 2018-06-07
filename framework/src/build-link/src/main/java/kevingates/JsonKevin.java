@@ -5,8 +5,8 @@ import java.util.Map;
 
 import play.libs.Json;
 import com.fasterxml.jackson.databind.JsonNode;
-import static play.libs.Json.toJson;
-import static play.libs.Json.getString;
+import static play.libs.Json.*;
+
 import static play.libs.Time.*;
 
 public class JsonKevin {
@@ -18,7 +18,8 @@ public class JsonKevin {
 		//JsonNode data = toJson(users);
 		//echo(toJson(users));
 		echo(parseDuration(null));
-		echoOne(11);		
+		echoOne(11);
+		//echoTwo(33);
 	}
 	
 //	public static void echo(String any) {
